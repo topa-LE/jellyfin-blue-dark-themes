@@ -199,3 +199,42 @@ border-top : 1px solid #222427;
 * {
 scrollbar-color : #101929 #353c45;
 }
+.searchSuggestionsList {
+border: 1px solid #212121;
+border-radius: 2px;
+background-color: #0d141e;
+margin-left: 70px;
+margin-right: 70px;
+font-size: 22px;
+}
+.detailLogo {
+top: 8vh;
+}
+.programCell-active {
+background: #0f1623 !important;
+}
+.guideDateTabsSlider {
+margin-top: 10px;
+}
+.guide-date-tab-button.emby-tab-button-active {
+color: #47546e;
+}
+.newTvProgram {
+background: #42596b;
+}
+.scrollSlider.flex.flex-grow.flex-direction-row {
+background: #0a1019;
+}
+.toast {
+background:#4ba502;
+color:#fff;
+color:hsla(0,0%,100%,.87)
+}
+/*
+.playerStats-stats {
+background-color: #1e1e22;
+}
+*/
+.visualCardBox {
+background-color: #0b1019;
+}
