@@ -1,7 +1,7 @@
 /*topaLE Jellyfin Custom.css BlueDark */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap') ;
 .playedIndicator {
-background : #5dd000;
+background : #54b307;
 }
 html {
 font-family : 'Titillium Web', Noto Sans, sans-serif;
@@ -56,13 +56,13 @@ background : #090e16;
 border : #292929 solid 0.07em;
 }
 .emby-select-withcolor > option {
-background : #1e334a;
+background: #1e334a;
 }
 .emby-input, .emby-textarea {
-color : #fff;
-background : #141b26;
-border : #0c121b solid 1px;
-border-radius : 0.2em;
+color: #fff;
+background: #141b26;
+border: #0c121b solid 1px;
+border-radius: 0.2em;
 }
 .navMenuOption-selected {
 background : #101929 !important ;
@@ -98,7 +98,7 @@ padding-top : 7px;
 background-color : #090e16;
 }
 .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear) {
-background-color : #080b0e;
+background-color: #080b0e;
 }
 .button-flat:hover, .button-link {
 color : #ffb05c;
@@ -137,67 +137,68 @@ border : #444a54 solid 1px;
 color : #ffb05c !important ;
 }
 div[data-role="controlgroup"] a.ui-btn-active {
-background : #101929 !important ;
-color : #fff !important ;
+background: #101929 !important;
+color: #fff !important;
 }
 .mediaInfoOfficialRating {
-border-color : #060d14;
+border-color: #060d14;
 }
 .emby-select-withcolor {
-background : #141b26;
-border : #292929 solid 0.07em;
+background: #141b26;
+border: #292929 solid 0.07em;
 }
 a[data-role="button"] {
-background : #090e16 !important ;
+background: #090e16 !important;
 }
 .centerMessage {
-font-size : 20px;
+font-size: 20px;
 }
 .emby-select-withcolor:focus {
-border-color : #1f2a35 !important ;
+border-color: #1f2a35 !important;
 }
 .playstatebutton-icon-played {
-color : #3f8b14;
+color: #3f8b14;
 }
 .swiper-theme-color {
-background-color : #7589a0;
+background-color: #7589a0;
 }
 .collapseContent {
-background-color : #101929;
+background-color: #101929;
 }
 .listItemIcon:not(.listItemIcon-transparent) {
-background-color : #101929 !important ;
+background-color: #101929 !important;
 }
-.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
-background-color : #ef9626 !important ;
+.emby-checkbox:checked+span+.checkboxOutline, .itemProgressBarForeground {
+background-color: #ef9626 !important;
 }
 .progressring {
-color : #ef9626 !important ;
+color:#ef9626 !important; 
 }
 .mediaInfoOfficialRating {
-background-color : #191a1d;
+background-color: #191a1d;
 }
 .infoBanner {
-color : #ddd;
-background : #1d2023;
+color: #ddd;
+background: #1d2023;
 }
 .detailPageWrapperContainer {
-text-align : justify;
+text-align: justify;
 }
 .listItemImage {
-border : #172234 solid 3px;
+border: #1c1e22 solid 3px;
+border-radius: 3px;
 }
 .listItemBodyText {
-text-align : justify;
+text-align: justify;
 }
 .countIndicator, .fullSyncIndicator {
-background : #354044;
+background: #354044;
 }
 .sessionCardFooter {
-border-top : 1px solid #222427;
+border-top: 1px solid #222427;
 }
 * {
-scrollbar-color : #101929 #353c45;
+scrollbar-color: #101929 #353c45;
 }
 .searchSuggestionsList {
 border: 1px solid #212121;
@@ -230,11 +231,44 @@ background:#4ba502;
 color:#fff;
 color:hsla(0,0%,100%,.87)
 }
-/*
-.playerStats-stats {
-background-color: #1e1e22;
-}
-*/
 .visualCardBox {
 background-color: #0b1019;
+}
+p.disclaimer {
+color: #6E6D6C;
+font-size:12px;
+}
+.detail-clamp-text {
+background-color: #0b0c0e;
+padding: 5px;
+border: 1px solid #2b2b2b;
+border-radius: 2px;
+}
+a.overview-expand.emby-button {
+background-color: #0b0c0e;
+border: 1px solid #2b2b2b;
+border-radius: 2px;
+margin-right: 0;
+}
+p.overview {
+background-color: #0b0c0e;
+padding: 5px;
+border: 1px solid #2b2b2b;
+border-radius: 2px;
+}
+.itemTags {
+background-color: #0b0c0e;
+padding: 5px;
+border: 1px solid #2b2b2b;
+border-radius: 2px;
+font-size: 80% !important;
+}
+a.button-link.emby-button {
+background-color: #0b0c0e;
+padding: 5px;
+border: 1px solid #2b2b2b;
+border-radius: 2px;
+}
+.cardScalable {
+border: 1px solid #2b2b2b;
 }
