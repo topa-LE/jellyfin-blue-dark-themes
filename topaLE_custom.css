@@ -1,4 +1,4 @@
-/*topaLE Jellyfin Custom.css BlueDark */
+/*topaLE Jellyfin Custom.css */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap') ;
 .playedIndicator {
 background : #54b307;
@@ -110,7 +110,7 @@ progress::-moz-progress-bar {
 background-color : #101929;
 }
 .fab, .raised {
-background : #0b1422;
+background : #0f1723;
 color : hsl(0 0% 100% / 0.87);
 }
 .navMenuOption:hover {
@@ -190,6 +190,8 @@ border-radius: 3px;
 }
 .listItemBodyText {
 text-align: justify;
+font-weight: 400;
+font-size: 16px;
 }
 .countIndicator, .fullSyncIndicator {
 background: #354044;
@@ -271,4 +273,12 @@ border-radius: 2px;
 }
 .cardScalable {
 border: 1px solid #2b2b2b;
+}
+.actionsheetDivider {
+background: #19191b !important;
+}
+.secondary.listItem-overview.listItemBodyText {
+font-size: 13px;
+color: #f3f3f3;
+font-weight: 300 !important;
 }
