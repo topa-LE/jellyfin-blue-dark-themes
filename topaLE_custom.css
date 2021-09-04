@@ -1,55 +1,60 @@
 /*topaLE Jellyfin Custom.css */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap');
+.pageTitleWithDefaultLogo {
+background-image: url(../../web/assets/img/banner-light-topa.png);
+}
 .playedIndicator {
 background : #54b307;
 }
 html {
-font-family : 'Titillium Web', Noto Sans, sans-serif;
+font-family : 'Saira Condensed', 'Titillium Web', Noto Sans, sans-serif;
+font-size: 108%;
 }
 h1, h2, h3, html {
-font-family : 'Titillium Web', Noto Sans, sans-serif;
+font-family : 'Saira Condensed', 'Titillium Web', Noto Sans, sans-serif;
 }
 .skinHeader-withBackground {
-background-color : #0c121a;
+background-color : #0e1621;
 }
 .visualCardBox {
-background-color : #0c121a;
+background-color : #0e1621;
 }
 .appfooter, .playlistSectionButton {
-background : #0c121a;
+background : #0e1621;
 color : #ccc;
 color : hsl(0 0% 100% / 0.78);
 }
 .detailRibbon {
-background : #0c121a;
+background : #0e1621;
 }
 .mainDrawer {
-background-color : #0c121a !important ;
+background-color : #0e1621 !important ;
 }
 .wizardStartForm {
-background-color : #0c121a;
+background-color : #0e1621;
 }
 html {
-background-color : #0c121a !important ;
+background-color : #0e1621 !important ;
 }
 .emby-tab-button.show-focus:focus, .emby-tab-button:hover {
-color : #ffb05c;
+color : #00a4dc;
 }
 .paper-icon-button-light:hover:not(:disabled) {
-color : #ffb05c;
-background-color : #101929;
+color : #fff;
+background-color : #00a4dc;
 }
 .paper-icon-button-light.show-focus:focus {
-color : #ffb05c;
+color : #00a4dc;
 }
 .inputLabelFocused, .selectLabelFocused, .textareaLabelFocused {
-color : #ffb05c;
+color : #00a4dc;
 }
 .paperList, .visualCardBox {
 background-color : #131619;
 }
 .content-primary {
-background-color : #0c121a;
+background-color : #0e1621;
 }
 .emby-select-withcolor {
 background : #090e16;
@@ -65,19 +70,19 @@ border: #0c121b solid 1px;
 border-radius: 0.2em;
 }
 .navMenuOption-selected {
-background : #101929 !important ;
+background : #16212f !important ;
 color : #fff;
 }
 .button-submit {
-background : #101929;
+background : #00a4dc;
 color : #fff;
 }
 .filterButtonBubble {
 color : #fff;
-background : #ffb05c;
+background : #00a4dc;
 }
 .backgroundContainer, .dialog, .nowPlayingContextMenu, .nowPlayingPlaylist, html {
-background-color : #090e16;
+background-color : #0e1621;
 }
 .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox {
 background-color : #090e16;
@@ -85,7 +90,7 @@ background-color : #090e16;
 .sectionTabs {
 font-size : 97.5%;
 font-weight : 300 !important ;
-font-family : 'Titillium Web', Noto Sans, sans-serif;
+font-family : 'Saira Condensed', 'Titillium Web', Noto Sans, sans-serif;
 }
 .cardOverlayContainer {
 border : #2b2f2f solid 3px;
@@ -101,26 +106,26 @@ background-color : #090e16;
 background-color: #080b0e;
 }
 .button-flat:hover, .button-link {
-color : #ffb05c;
+color : #0988b3;
 }
 .emby-button {
 font-weight : 300;
 }
 progress::-moz-progress-bar {
-background-color : #101929;
+background-color : #00a4dc;
 }
 .fab, .raised {
-background : #0f1723;
+background : #1e2632;
 color : hsl(0 0% 100% / 0.87);
 }
 .navMenuOption:hover {
-background : #101929;
+background : #16212f;
 }
 .actionSheetMenuItem:hover {
-background-color : #101929;
+background-color : #16212f;
 }
 .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
-background-color : #101929;
+background-color : #16212f;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
 border-color : #090e16;
@@ -134,10 +139,10 @@ background-color : #b7bdc6;
 border : #444a54 solid 1px;
 }
 .button-accent-flat {
-color : #ffb05c !important ;
+color : #00a4dc !important ;
 }
 div[data-role="controlgroup"] a.ui-btn-active {
-background: #101929 !important;
+background: #16212f !important;
 color: #fff !important;
 }
 .mediaInfoOfficialRating {
@@ -163,10 +168,10 @@ color: #3f8b14;
 background-color: #7589a0;
 }
 .collapseContent {
-background-color: #101929;
+background-color: #16212f;
 }
 .listItemIcon:not(.listItemIcon-transparent) {
-background-color: #101929 !important;
+background-color: #16212f !important;
 }
 .emby-checkbox:checked+span+.checkboxOutline, .itemProgressBarForeground {
 background-color: #ef9626 !important;
@@ -200,7 +205,7 @@ background: #354044;
 border-top: 1px solid #222427;
 }
 * {
-scrollbar-color: #101929 #353c45;
+scrollbar-color: #16212f #353c45;
 }
 .searchSuggestionsList {
 border: 1px solid #212121;
@@ -278,7 +283,10 @@ border: 1px solid #2b2b2b;
 background: #19191b !important;
 }
 .secondary.listItem-overview.listItemBodyText {
-font-size: 13px;
+font-size: 15px;
 color: #f3f3f3;
-font-weight: 300 !important;
+font-weight: 200 !important;
+}
+.playerStats {
+background: rgb(30 38 50 / 80%);
 }
